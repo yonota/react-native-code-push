@@ -16,7 +16,7 @@ async function checkForUpdate(deploymentKey = null, handleBinaryVersionMismatchC
    * and the hash of the currently running update (if there is one).
    * This allows the client to only receive updates which are targetted
    * for their specific deployment and version and which are actually
-   * different from the CodePush update they have already installed.
+   * different from the CodePush update they have already installed.11
    */
   const nativeConfig = await getConfiguration();
   /*
